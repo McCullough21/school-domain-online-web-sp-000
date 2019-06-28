@@ -15,15 +15,8 @@ else
   end
 end
 
-
-#   def length(input)
-#     length = []
-#     @roster.each do |grade, students|
-#        students.each do |student|
-#          length << student
-#        end
-#     end
-#    length.length
-# end
+def grade(grade)
+  @roster[grade].value
+end
 
 end
