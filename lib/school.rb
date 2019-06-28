@@ -19,7 +19,11 @@ def grade(grade)
   @roster[grade]
 end
 def sort
-  @roster.sort
+ # answer = {}
+  @roster.sort[grade].sort
+end
+
+
 end
 
 end
